@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "QRHomeViewcontroller.h"
+
+
 
 @interface AppDelegate ()
 
@@ -16,6 +19,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    self.window  = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    QRHomeViewcontroller * scanView =[[QRHomeViewcontroller alloc]init];
+    UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:scanView];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    
+    
     // Override point for customization after application launch.
     return YES;
 }

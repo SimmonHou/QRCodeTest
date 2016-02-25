@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  QRWebViewController.h
 //  QrcodeTest
 //
 //  Created by 侯伟平 on 16/2/24.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface QRWebViewController : UIViewController
 
+-(id)initWithUrl:(NSString *)url;
 
 @end
-

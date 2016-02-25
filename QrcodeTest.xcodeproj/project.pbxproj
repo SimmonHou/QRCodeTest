@@ -9,23 +9,43 @@
 /* Begin PBXBuildFile section */
 		E04975C11C7D8CAF00DB6DA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E04975C01C7D8CAF00DB6DA2 /* main.m */; };
 		E04975C41C7D8CAF00DB6DA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E04975C31C7D8CAF00DB6DA2 /* AppDelegate.m */; };
-		E04975C71C7D8CAF00DB6DA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E04975C61C7D8CAF00DB6DA2 /* ViewController.m */; };
-		E04975CA1C7D8CAF00DB6DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04975C81C7D8CAF00DB6DA2 /* Main.storyboard */; };
 		E04975CC1C7D8CAF00DB6DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E04975CB1C7D8CAF00DB6DA2 /* Assets.xcassets */; };
 		E04975CF1C7D8CAF00DB6DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04975CD1C7D8CAF00DB6DA2 /* LaunchScreen.storyboard */; };
+		E04975D81C7D8D4200DB6DA2 /* QRScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E04975D71C7D8D4100DB6DA2 /* QRScanViewController.m */; };
+		E04975DA1C7D8E5200DB6DA2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04975D91C7D8E5200DB6DA2 /* AVFoundation.framework */; };
+		E04975DD1C7D8EA000DB6DA2 /* QRScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = E04975DC1C7D8EA000DB6DA2 /* QRScanView.m */; };
+		E04975DF1C7D9C0D00DB6DA2 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E04975DE1C7D9C0D00DB6DA2 /* Image.xcassets */; };
+		E04975E21C7DA01C00DB6DA2 /* QRHomeViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = E04975E11C7DA01C00DB6DA2 /* QRHomeViewcontroller.m */; };
+		E04975E51C7DA3AF00DB6DA2 /* QRWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E04975E41C7DA3AF00DB6DA2 /* QRWebViewController.m */; };
+		E0F890891C7DABEF00167DA3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F890881C7DABEF00167DA3 /* WebKit.framework */; };
+		E0F890921C7E894A00167DA3 /* AppDelegate+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F890911C7E894A00167DA3 /* AppDelegate+Util.m */; };
+		E0F8909F1C7E9BF000167DA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F8909E1C7E9BF000167DA3 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E04975BC1C7D8CAF00DB6DA2 /* QrcodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QrcodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E04975BC1C7D8CAF00DB6DA2 /* QRCodeTest.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeTest.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E04975C01C7D8CAF00DB6DA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E04975C21C7D8CAF00DB6DA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E04975C31C7D8CAF00DB6DA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E04975C51C7D8CAF00DB6DA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E04975C61C7D8CAF00DB6DA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E04975C91C7D8CAF00DB6DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E04975CB1C7D8CAF00DB6DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E04975CE1C7D8CAF00DB6DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E04975D01C7D8CAF00DB6DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E04975D61C7D8D4100DB6DA2 /* QRScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRScanViewController.h; sourceTree = "<group>"; };
+		E04975D71C7D8D4100DB6DA2 /* QRScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRScanViewController.m; sourceTree = "<group>"; };
+		E04975D91C7D8E5200DB6DA2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E04975DB1C7D8EA000DB6DA2 /* QRScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRScanView.h; sourceTree = "<group>"; };
+		E04975DC1C7D8EA000DB6DA2 /* QRScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRScanView.m; sourceTree = "<group>"; };
+		E04975DE1C7D9C0D00DB6DA2 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Image.xcassets; path = ../Image.xcassets; sourceTree = "<group>"; };
+		E04975E01C7DA01C00DB6DA2 /* QRHomeViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRHomeViewcontroller.h; sourceTree = "<group>"; };
+		E04975E11C7DA01C00DB6DA2 /* QRHomeViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRHomeViewcontroller.m; sourceTree = "<group>"; };
+		E04975E31C7DA3AF00DB6DA2 /* QRWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRWebViewController.h; sourceTree = "<group>"; };
+		E04975E41C7DA3AF00DB6DA2 /* QRWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRWebViewController.m; sourceTree = "<group>"; };
+		E0F890881C7DABEF00167DA3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		E0F890901C7E894A00167DA3 /* AppDelegate+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+Util.h"; path = "../AppDelegate+Util.h"; sourceTree = "<group>"; };
+		E0F890911C7E894A00167DA3 /* AppDelegate+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+Util.m"; path = "../AppDelegate+Util.m"; sourceTree = "<group>"; };
+		E0F890961C7E8B0C00167DA3 /* QRConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRConfig.h; sourceTree = "<group>"; };
+		E0F8909C1C7E923800167DA3 /* QRCode_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QRCode_Prefix.pch; path = ../QRCode_Prefix.pch; sourceTree = "<group>"; };
+		E0F8909E1C7E9BF000167DA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0F8909F1C7E9BF000167DA3 /* Foundation.framework in Frameworks */,
+				E0F890891C7DABEF00167DA3 /* WebKit.framework in Frameworks */,
+				E04975DA1C7D8E5200DB6DA2 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +73,7 @@
 		E04975BD1C7D8CAF00DB6DA2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E04975BC1C7D8CAF00DB6DA2 /* QrcodeTest.app */,
+				E04975BC1C7D8CAF00DB6DA2 /* QRCodeTest.temp_caseinsensitive_rename.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,11 +81,20 @@
 		E04975BE1C7D8CAF00DB6DA2 /* QrcodeTest */ = {
 			isa = PBXGroup;
 			children = (
+				E04975DB1C7D8EA000DB6DA2 /* QRScanView.h */,
+				E04975DC1C7D8EA000DB6DA2 /* QRScanView.m */,
+				E0F890961C7E8B0C00167DA3 /* QRConfig.h */,
 				E04975C21C7D8CAF00DB6DA2 /* AppDelegate.h */,
 				E04975C31C7D8CAF00DB6DA2 /* AppDelegate.m */,
-				E04975C51C7D8CAF00DB6DA2 /* ViewController.h */,
-				E04975C61C7D8CAF00DB6DA2 /* ViewController.m */,
-				E04975C81C7D8CAF00DB6DA2 /* Main.storyboard */,
+				E0F890901C7E894A00167DA3 /* AppDelegate+Util.h */,
+				E0F890911C7E894A00167DA3 /* AppDelegate+Util.m */,
+				E04975D61C7D8D4100DB6DA2 /* QRScanViewController.h */,
+				E04975D71C7D8D4100DB6DA2 /* QRScanViewController.m */,
+				E04975E01C7DA01C00DB6DA2 /* QRHomeViewcontroller.h */,
+				E04975E11C7DA01C00DB6DA2 /* QRHomeViewcontroller.m */,
+				E04975E31C7DA3AF00DB6DA2 /* QRWebViewController.h */,
+				E04975E41C7DA3AF00DB6DA2 /* QRWebViewController.m */,
+				E04975DE1C7D9C0D00DB6DA2 /* Image.xcassets */,
 				E04975CB1C7D8CAF00DB6DA2 /* Assets.xcassets */,
 				E04975CD1C7D8CAF00DB6DA2 /* LaunchScreen.storyboard */,
 				E04975D01C7D8CAF00DB6DA2 /* Info.plist */,
@@ -74,6 +106,10 @@
 		E04975BF1C7D8CAF00DB6DA2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E0F8909C1C7E923800167DA3 /* QRCode_Prefix.pch */,
+				E0F8909E1C7E9BF000167DA3 /* Foundation.framework */,
+				E0F890881C7DABEF00167DA3 /* WebKit.framework */,
+				E04975D91C7D8E5200DB6DA2 /* AVFoundation.framework */,
 				E04975C01C7D8CAF00DB6DA2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -96,7 +132,7 @@
 			);
 			name = QrcodeTest;
 			productName = QrcodeTest;
-			productReference = E04975BC1C7D8CAF00DB6DA2 /* QrcodeTest.app */;
+			productReference = E04975BC1C7D8CAF00DB6DA2 /* QRCodeTest.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +149,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E04975B71C7D8CAF00DB6DA2 /* Build configuration list for PBXProject "QrcodeTest" */;
+			buildConfigurationList = E04975B71C7D8CAF00DB6DA2 /* Build configuration list for PBXProject "QRCodeTest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -137,8 +173,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E04975CF1C7D8CAF00DB6DA2 /* LaunchScreen.storyboard in Resources */,
+				E04975DF1C7D9C0D00DB6DA2 /* Image.xcassets in Resources */,
 				E04975CC1C7D8CAF00DB6DA2 /* Assets.xcassets in Resources */,
-				E04975CA1C7D8CAF00DB6DA2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +185,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E04975C71C7D8CAF00DB6DA2 /* ViewController.m in Sources */,
+				E0F890921C7E894A00167DA3 /* AppDelegate+Util.m in Sources */,
+				E04975E51C7DA3AF00DB6DA2 /* QRWebViewController.m in Sources */,
+				E04975E21C7DA01C00DB6DA2 /* QRHomeViewcontroller.m in Sources */,
 				E04975C41C7D8CAF00DB6DA2 /* AppDelegate.m in Sources */,
+				E04975D81C7D8D4200DB6DA2 /* QRScanViewController.m in Sources */,
+				E04975DD1C7D8EA000DB6DA2 /* QRScanView.m in Sources */,
 				E04975C11C7D8CAF00DB6DA2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,14 +198,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E04975C81C7D8CAF00DB6DA2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E04975C91C7D8CAF00DB6DA2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E04975CD1C7D8CAF00DB6DA2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -261,10 +293,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QRCode_Prefix.pch";
 				INFOPLIST_FILE = QrcodeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = smallTree.QrcodeTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = QRCodeTest.temp_caseinsensitive_rename;
 			};
 			name = Debug;
 		};
@@ -272,17 +305,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QRCode_Prefix.pch";
 				INFOPLIST_FILE = QrcodeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = smallTree.QrcodeTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = QRCodeTest.temp_caseinsensitive_rename;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E04975B71C7D8CAF00DB6DA2 /* Build configuration list for PBXProject "QrcodeTest" */ = {
+		E04975B71C7D8CAF00DB6DA2 /* Build configuration list for PBXProject "QRCodeTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E04975D11C7D8CAF00DB6DA2 /* Debug */,
@@ -298,6 +332,7 @@
 				E04975D51C7D8CAF00DB6DA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

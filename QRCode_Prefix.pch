@@ -1,0 +1,21 @@
+//
+//  QRCode_Prefix.pch
+//  QRCodeTest
+//
+//  Created by 侯伟平 on 16/2/25.
+//  Copyright © 2016年 ZaZa. All rights reserved.
+//
+
+#ifndef QRCode_Prefix_pch
+#define QRCode_Prefix_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#ifdef __OBJC__
+
+#import "QRConfig.h"
+
+#endif
+
+#endif 

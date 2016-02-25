@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E04975BB1C7D8CAF00DB6DA2"
-               BuildableName = "QrcodeTest.app"
+               BuildableName = "QRCodeTest.temp_caseinsensitive_rename.app"
                BlueprintName = "QrcodeTest"
-               ReferencedContainer = "container:QrcodeTest.xcodeproj">
+               ReferencedContainer = "container:QRCodeTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E04975BB1C7D8CAF00DB6DA2"
-            BuildableName = "QrcodeTest.app"
+            BuildableName = "QRCodeTest.temp_caseinsensitive_rename.app"
             BlueprintName = "QrcodeTest"
-            ReferencedContainer = "container:QrcodeTest.xcodeproj">
+            ReferencedContainer = "container:QRCodeTest.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E04975BB1C7D8CAF00DB6DA2"
-            BuildableName = "QrcodeTest.app"
+            BuildableName = "QRCodeTest.temp_caseinsensitive_rename.app"
             BlueprintName = "QrcodeTest"
-            ReferencedContainer = "container:QrcodeTest.xcodeproj">
+            ReferencedContainer = "container:QRCodeTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E04975BB1C7D8CAF00DB6DA2"
-            BuildableName = "QrcodeTest.app"
+            BuildableName = "QRCodeTest.temp_caseinsensitive_rename.app"
             BlueprintName = "QrcodeTest"
-            ReferencedContainer = "container:QrcodeTest.xcodeproj">
+            ReferencedContainer = "container:QRCodeTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
